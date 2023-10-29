@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(245, 240, 234);
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header-container__title {
+  font-weight: 400;
+}
