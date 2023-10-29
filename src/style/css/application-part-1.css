@@ -1,0 +1,52 @@
+.section-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 10px;
+  padding: 50px 150px;
+  box-shadow: 0 0px 20px -10px black;
+}
+.section-container__header {
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+}
+.section-container__register-button {
+  padding: 20px;
+  font-size: 30px;
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.section-container__register-button:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+.section-container span {
+  width: 100%;
+}
+.section-container .first-image {
+  width: 450px;
+}
+.section-container .section-image {
+  width: 350px;
+}
+.section-container .image {
+  margin-bottom: 50px;
+}
+.section-container .fb-icon-container {
+  width: 100%;
+}
+.section-container .fb-icon-container .fb-icon {
+  font-size: 30px;
+  color: rgb(73, 73, 73);
+  left: auto;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.section-container .fb-icon-container .fb-icon:hover {
+  color: #75866a;
+}
