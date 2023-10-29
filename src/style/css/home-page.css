@@ -1,13 +1,89 @@
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background-color: rgb(245, 240, 234);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.header-container {
+.nav-bar-box {
   width: 100%;
+  box-shadow: 0 1px 10px -6px;
   display: flex;
   justify-content: center;
 }
+.nav-bar-box .nav-bar-container {
+  height: 80px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar-box .nav-bar-container__buttons a {
+  user-select: none;
+}
+.nav-bar-box .nav-bar-container__buttons a .nav-bar-button {
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 2px;
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.nav-bar-box .nav-bar-container__buttons a .nav-bar-button:hover {
+  border: 1px solid #75866a;
+}
+
+.header-container {
+  margin-top: 30px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .header-container__title {
   font-weight: 400;
+  color: #75866a;
+  font-size: 50px;
+}
+.header-container .arrow-right {
+  margin-bottom: 40px;
+  width: 200px;
+  rotate: -105deg;
+}
+.header-container .logo-img {
+  width: 200px;
+}
+
+.about-project-container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-project-container__title {
+  font-weight: 400;
+  font-size: 30px;
+}
+.about-project-container__application-button {
+  margin-top: 50px;
+  padding: 20px 30px 20px 50px;
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  background-color: #75866a;
+  font-size: 24px;
+  border-radius: 50px;
+  color: black;
+  cursor: pointer;
+}
+.about-project-container__application-button span {
+  font-size: 26px;
 }
