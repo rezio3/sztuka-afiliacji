@@ -1,9 +1,11 @@
 .nav-bar-box {
+	position: fixed;
 	width: 100%;
 	box-shadow: 0 1px 10px -6px;
 	// opacity: 0.5;
 	display: flex;
 	justify-content: center;
+	background-color: rgba(245, 240, 234, 1);
 	.nav-bar-container {
 		height: 80px;
 		width: 80%;
@@ -33,6 +35,7 @@
 		}
 		.logo-img-nav-bar {
 			width: 100px;
+			margin-top: 5px;
 		}
 	}
 }

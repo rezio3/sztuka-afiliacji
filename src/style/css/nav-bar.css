@@ -1,8 +1,10 @@
 .nav-bar-box {
+  position: fixed;
   width: 100%;
   box-shadow: 0 1px 10px -6px;
   display: flex;
   justify-content: center;
+  background-color: rgb(245, 240, 234);
 }
 .nav-bar-box .nav-bar-container {
   height: 80px;
@@ -28,4 +30,5 @@
 }
 .nav-bar-box .nav-bar-container .logo-img-nav-bar {
   width: 100px;
+  margin-top: 5px;
 }
