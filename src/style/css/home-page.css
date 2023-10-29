@@ -1,44 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: rgb(245, 240, 234);
-  font-family: "Poppins", sans-serif;
-}
-
-.nav-bar-box {
-  width: 100%;
-  box-shadow: 0 1px 10px -6px;
-  display: flex;
-  justify-content: center;
-}
-.nav-bar-box .nav-bar-container {
-  height: 80px;
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-bar-box .nav-bar-container__buttons a {
-  user-select: none;
-}
-.nav-bar-box .nav-bar-container__buttons a .nav-bar-button {
-  text-transform: uppercase;
-  padding: 15px;
-  margin: 2px;
-  background: none;
-  border: 1px solid rgba(0, 0, 0, 0);
-  transition: 0.3s ease-out;
-  cursor: pointer;
-}
-.nav-bar-box .nav-bar-container__buttons a .nav-bar-button:hover {
-  border: 1px solid #75866a;
-}
-
 .header-container {
   margin-top: 30px;
   width: 80%;
@@ -70,9 +29,12 @@ body {
 .about-project-container__title {
   font-weight: 400;
   font-size: 30px;
+  margin-bottom: 30px;
+}
+.about-project-container a {
+  text-decoration: none;
 }
 .about-project-container__application-button {
-  margin-top: 50px;
   padding: 20px 30px 20px 50px;
   display: flex;
   align-items: center;
@@ -82,8 +44,15 @@ body {
   font-size: 24px;
   border-radius: 50px;
   color: black;
+  transition: 0.2s ease-out;
   cursor: pointer;
 }
 .about-project-container__application-button span {
   font-size: 26px;
+}
+.about-project-container__application-button:hover {
+  background-color: #90a382;
+}
+.about-project-container .youtube-video-container {
+  margin-top: 50px;
 }

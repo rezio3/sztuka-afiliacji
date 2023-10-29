@@ -1,0 +1,31 @@
+.nav-bar-box {
+  width: 100%;
+  box-shadow: 0 1px 10px -6px;
+  display: flex;
+  justify-content: center;
+}
+.nav-bar-box .nav-bar-container {
+  height: 80px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar-box .nav-bar-container__buttons a {
+  user-select: none;
+}
+.nav-bar-box .nav-bar-container__buttons a .nav-bar-button {
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 2px;
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.nav-bar-box .nav-bar-container__buttons a .nav-bar-button:hover {
+  border: 1px solid #75866a;
+}
+.nav-bar-box .nav-bar-container .logo-img-nav-bar {
+  width: 100px;
+}
