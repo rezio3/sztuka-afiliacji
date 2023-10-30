@@ -1,0 +1,28 @@
+.footer-icons-box {
+  margin-top: 50px;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  background-color: #75866a;
+}
+.footer-icons-box .copyright-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-icons-box .copyright-container .copyright-span {
+  color: black;
+}
+.footer-icons-box .copyright-container .footer-icons-container .icon {
+  padding: 15px;
+  margin: 20px 0px;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+.footer-icons-box .copyright-container .footer-icons-container .icon:hover {
+  color: rgb(63, 63, 63);
+}
