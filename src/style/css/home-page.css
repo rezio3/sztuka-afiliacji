@@ -41,7 +41,7 @@
   align-items: center;
   border: none;
   background: none;
-  background-color: #75866a;
+  background-color: #9cad90;
   font-size: 24px;
   border-radius: 50px;
   color: black;
@@ -52,7 +52,7 @@
   font-size: 26px;
 }
 .about-project-container__application-button:hover {
-  background-color: #90a382;
+  background-color: rgb(127, 153, 108);
 }
 .about-project-container .youtube-video-container {
   margin-top: 50px;
