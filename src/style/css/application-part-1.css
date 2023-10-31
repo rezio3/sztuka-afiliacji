@@ -15,15 +15,16 @@
   text-align: center;
 }
 .section-container__register-button {
-  padding: 20px;
+  padding: 20px 40px;
   font-size: 30px;
-  background: none;
   border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  background-color: #9cad90;
   transition: 0.2s ease-out;
   cursor: pointer;
 }
 .section-container__register-button:hover {
-  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(127, 153, 108);
 }
 .section-container span {
   width: 100%;

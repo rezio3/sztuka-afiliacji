@@ -15,15 +15,16 @@
 		text-align: center;
 	}
 	&__register-button {
-		padding: 20px;
+		padding: 20px 40px;
 		font-size: 30px;
-		background: none;
 		border: 1px solid rgba(0, 0, 0, 0);
+		border-radius: 50px;
+		background-color: #9cad90;
 		transition: 0.2s ease-out;
 		cursor: pointer;
 	}
 	&__register-button:hover {
-		border: 1px solid rgba(0, 0, 0, 1);
+		background-color: rgb(127, 153, 108);
 	}
 	span {
 		width: 100%;
