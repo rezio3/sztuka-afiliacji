@@ -87,3 +87,26 @@ body {
 .page-off {
   display: none;
 }
+
+.wrong-password-anim {
+  position: relative;
+  animation: wrongPass 0.4s ease-out;
+}
+
+@keyframes wrongPass {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(-30px);
+  }
+  75% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}

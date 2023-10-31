@@ -16,6 +16,10 @@ const checkPassword = (event) => {
 	} else {
 		nextPage = false;
 		wrongPasswordSpan.innerHTML = "Wprowadź poprawne hasło";
+		wrongPasswordSpan.classList.add("wrong-password-anim");
+		setTimeout(() => {
+			wrongPasswordSpan.classList.remove("wrong-password-anim");
+		}, 400);
 	}
 };
 
