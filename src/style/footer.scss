@@ -4,7 +4,7 @@
 	height: 110px;
 	display: flex;
 	justify-content: center;
-	background-color: #75866a;
+	background-color: #9cad90;
 
 	.copyright-container {
 		width: 80%;
@@ -28,5 +28,8 @@
 				color: rgb(63, 63, 63);
 			}
 		}
+	}
+	a {
+		text-decoration: none;
 	}
 }

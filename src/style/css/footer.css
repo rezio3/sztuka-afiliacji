@@ -4,7 +4,7 @@
   height: 110px;
   display: flex;
   justify-content: center;
-  background-color: #75866a;
+  background-color: #9cad90;
 }
 .footer-icons-box .copyright-container {
   width: 80%;
@@ -25,4 +25,7 @@
 }
 .footer-icons-box .copyright-container .footer-icons-container .icon:hover {
   color: rgb(63, 63, 63);
+}
+.footer-icons-box a {
+  text-decoration: none;
 }
