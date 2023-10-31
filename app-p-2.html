@@ -51,17 +51,23 @@
 		</div>
 		<section class="password-section-container section-container">
 			<p>Treść jest chroniona hasłem. Wprowadź hasło by zobaczyć zawartość</p>
+			<form id="login-form">
+				<input
+					type="password"
+					class="input-password"
+					id="password"
+					name="password"
+				/>
+				<span class="wrong-password-span"></span>
 
-			<input
-				type="password"
-				onchange="inputChange(this)"
-				class="input-password"
-			/>
-			<span class="wrong-password-span"></span>
-
-			<button onclick="checkPassword()" class="check-password-button">
-				OK
-			</button>
+				<button
+					type="button"
+					onclick="checkPassword(event)"
+					class="check-password-button"
+				>
+					OK
+				</button>
+			</form>
 		</section>
 		<section class="main-section-container section-container page-off">
 			<h2 class="main-section-container__title">
@@ -101,8 +107,10 @@
 				</div>
 				<p>
 					<b>Warunki programowe:</b><br />
-					- Załóż konto oszczędnościowe VeloSkarbonka,
-					<br />- Pobierz aplikację mobilną i zaloguj się do niej.
+					- załóż konto oszczędnościowe VeloSkarbonka,
+					<br />
+					- wyraź zgody marketingowe,<br />- pobierz aplikację mobilną i zaloguj
+					się do niej.
 				</p>
 			</div>
 			<div class="bank-section">
