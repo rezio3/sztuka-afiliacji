@@ -15,6 +15,7 @@
 }
 .nav-bar-box .nav-bar-container__buttons a {
   user-select: none;
+  text-decoration: none;
 }
 .nav-bar-box .nav-bar-container__buttons a .nav-bar-button {
   text-transform: uppercase;
@@ -26,7 +27,7 @@
   cursor: pointer;
 }
 .nav-bar-box .nav-bar-container__buttons a .nav-bar-button:hover {
-  border: 1px solid #75866a;
+  border: 1px solid black;
 }
 .nav-bar-box .nav-bar-container .logo-img-nav-bar {
   width: 100px;

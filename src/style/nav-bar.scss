@@ -16,6 +16,7 @@
 		&__buttons {
 			a {
 				user-select: none;
+				text-decoration: none;
 				.nav-bar-button {
 					text-transform: uppercase;
 					padding: 15px;
@@ -26,7 +27,7 @@
 					cursor: pointer;
 				}
 				.nav-bar-button:hover {
-					border: 1px solid #75866a;
+					border: 1px solid black;
 				}
 			}
 		}
