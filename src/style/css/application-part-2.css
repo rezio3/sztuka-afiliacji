@@ -1,0 +1,77 @@
+.section-container {
+  margin-top: 120px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 10px;
+  padding: 50px 150px;
+  box-shadow: 0 0px 20px -10px black;
+}
+
+.password-section-container .input-password {
+  padding: 10px;
+  font-size: 20px;
+}
+.password-section-container .wrong-password-span {
+  color: red;
+  font-size: 12px;
+  height: 20px;
+}
+.password-section-container .check-password-button {
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #9cad90;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+.password-section-container .check-password-button:hover {
+  background-color: rgb(127, 153, 108);
+}
+
+.main-section-container__title {
+  font-weight: 400;
+  font-size: 32px;
+}
+.main-section-container__title2 {
+  width: 100%;
+  font-weight: 400;
+  font-size: 26px;
+}
+.main-section-container .platform-image {
+  width: 100%;
+}
+.main-section-container p {
+  margin-top: 30px;
+}
+.main-section-container .bank-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  background-color: #9cad90;
+  margin-top: 30px;
+}
+.main-section-container .bank-section .links-container {
+  display: flex;
+}
+.main-section-container .bank-section .links-container a {
+  color: black;
+  font-weight: bold;
+}
+.main-section-container .bank-section .links-container span {
+  margin-right: 20px;
+}
+.main-section-container .bank-section i {
+  display: block;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.page-off {
+  display: none;
+}

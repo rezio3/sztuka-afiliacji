@@ -1,0 +1,86 @@
+.section-container {
+	margin-top: 120px;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 10px;
+	padding: 50px 150px;
+	box-shadow: 0 0px 20px -10px black;
+}
+
+.password-section-container {
+	.input-password {
+		padding: 10px;
+		font-size: 20px;
+	}
+
+	.wrong-password-span {
+		color: red;
+		font-size: 12px;
+		height: 20px;
+	}
+
+	.check-password-button {
+		width: 120px;
+		height: 50px;
+		font-size: 20px;
+		background-color: #9cad90;
+		border: none;
+		border-radius: 50px;
+		cursor: pointer;
+		transition: 0.2s ease-out;
+	}
+	.check-password-button:hover {
+		background-color: rgb(127, 153, 108);
+	}
+}
+
+.main-section-container {
+	&__title {
+		font-weight: 400;
+		font-size: 32px;
+	}
+	&__title2 {
+		width: 100%;
+		font-weight: 400;
+		font-size: 26px;
+		// background-color: red;
+	}
+	.platform-image {
+		width: 100%;
+	}
+	p {
+		margin-top: 30px;
+	}
+	.bank-section {
+		display: flex;
+		flex-direction: column;
+		// border: 1px solid red;
+		width: 100%;
+		padding: 20px;
+		background-color: #9cad90;
+		margin-top: 30px;
+		.links-container {
+			display: flex;
+			a {
+				// text-decoration: none;
+				color: black;
+				font-weight: bold;
+			}
+			span {
+				margin-right: 20px;
+			}
+		}
+		i {
+			display: block;
+			margin-top: 20px;
+			font-size: 12px;
+		}
+	}
+}
+
+.page-off {
+	display: none;
+}
