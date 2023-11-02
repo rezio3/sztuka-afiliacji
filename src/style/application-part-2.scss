@@ -3,6 +3,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	footer {
+		position: relative;
+		bottom: 0;
+	}
 }
 
 .section-container {
@@ -59,18 +63,25 @@ body {
 		font-weight: 400;
 		font-size: 26px;
 		// background-color: red;
+		// margin-bottom: 0;
 	}
 	.platform-image {
 		width: 100%;
 	}
 	p {
-		margin-top: 30px;
+		margin-top: 0px;
+	}
+
+	.centered-paragraph {
+		// background-color: red;
+		text-align: center;
+		margin-top: 50px;
 	}
 	.bank-section {
 		display: flex;
 		flex-direction: column;
 		// border: 1px solid red;
-		width: 100%;
+		width: 96%;
 		padding: 20px;
 		background-color: #9cad90;
 		margin-top: 30px;

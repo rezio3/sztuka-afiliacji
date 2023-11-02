@@ -11,11 +11,13 @@
 }
 .section-container__header {
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 32px;
+  font-weight: 400;
   text-align: center;
 }
 .section-container__register-button {
   padding: 20px 40px;
+  margin: 30px 0;
   font-size: 30px;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 50px;
@@ -42,6 +44,7 @@
   width: 100%;
 }
 .section-container .fb-icon-container .fb-icon {
+  margin-top: 15px;
   font-size: 30px;
   color: rgb(73, 73, 73);
   left: auto;
