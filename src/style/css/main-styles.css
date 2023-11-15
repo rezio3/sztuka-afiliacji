@@ -6,6 +6,6 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(245, 240, 234);
+  background-color: #e7dfd8;
   font-family: "Poppins", sans-serif;
 }
