@@ -4,10 +4,12 @@
   height: 110px;
   display: flex;
   justify-content: center;
-  background-color: #9cad90;
+  background-color: #e7dfd8;
+  box-shadow: 0 0 10px -6px;
 }
 .footer-icons-box .copyright-container {
-  width: 80%;
+  min-width: 1230px;
+  width: 1230px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,9 +19,10 @@
 }
 .footer-icons-box .copyright-container .footer-icons-container .icon {
   padding: 15px;
-  margin: 20px 0px;
+  padding-right: 0;
+  margin: 20px 5px;
   font-size: 30px;
-  color: black;
+  color: rgb(163, 175, 158);
   cursor: pointer;
   transition: 0.2s ease-out;
 }

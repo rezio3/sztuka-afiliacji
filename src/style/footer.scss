@@ -1,13 +1,17 @@
+@import "./colors.scss";
+
 .footer-icons-box {
 	margin-top: 50px;
 	width: 100%;
 	height: 110px;
 	display: flex;
 	justify-content: center;
-	background-color: #9cad90;
+	background-color: $beige;
+	box-shadow: 0 0 10px -6px;
 
 	.copyright-container {
-		width: 80%;
+		min-width: 1230px;
+		width: 1230px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -18,9 +22,10 @@
 		.footer-icons-container {
 			.icon {
 				padding: 15px;
-				margin: 20px 0px;
+				padding-right: 0;
+				margin: 20px 5px;
 				font-size: 30px;
-				color: black;
+				color: $lightgreen;
 				cursor: pointer;
 				transition: 0.2s ease-out;
 			}
