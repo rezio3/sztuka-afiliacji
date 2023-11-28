@@ -1,0 +1,21 @@
+@import "./colors.scss";
+
+::-webkit-scrollbar {
+	width: 1em;
+	transition: 0.2s;
+}
+::-webkit-scrollbar-track {
+	background-color: $green;
+	// border-radius: 25px;
+	// margin-block: 0.5em;
+	margin-inline: 150px;
+	transition: 0.2s;
+}
+::-webkit-scrollbar-thumb {
+	background-color: $lightgreen;
+	// border-radius: 25px;
+	transition: 0.2s;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(177, 189, 173);
+}
