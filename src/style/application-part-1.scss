@@ -1,7 +1,7 @@
 @import "./colors.scss";
 .section-container {
 	position: relative;
-	margin-top: 120px;
+	margin-top: 150px;
 	width: 50%;
 	display: flex;
 	align-items: center;
@@ -105,7 +105,30 @@
 
 .lower-section-container {
 	flex-direction: column;
+	padding: 60px 150px;
+	margin-bottom: 120px;
+	h2 {
+		margin-top: 0;
+		color: #615e5b;
+		font-size: 60px;
+		letter-spacing: 2px;
+		font-weight: 400;
+	}
 	&__content-container {
+		width: 100%;
 		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	ul {
+		width: 450px;
+		li {
+			font-size: 24px;
+			margin: 20px 0;
+			letter-spacing: 2px;
+		}
+	}
+	.social-image {
+		width: 200px;
 	}
 }
