@@ -99,3 +99,6 @@
 .lower-section-container {
   flex-direction: column;
 }
+.lower-section-container__content-container {
+  display: flex;
+}

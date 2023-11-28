@@ -105,4 +105,7 @@
 
 .lower-section-container {
 	flex-direction: column;
+	&__content-container {
+		display: flex;
+	}
 }
