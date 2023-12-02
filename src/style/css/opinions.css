@@ -77,18 +77,6 @@ body {
 .lower-opinions-container .opinions-img {
   margin: 20px 0;
 }
-.lower-opinions-container .opinions-img-1 {
-  margin-right: auto;
-}
-.lower-opinions-container .opinions-img-2 {
-  margin-left: auto;
-}
-.lower-opinions-container .opinions-img-3 {
-  margin-right: auto;
-}
-.lower-opinions-container .opinions-img-4 {
-  margin-left: auto;
-}
 
 ::-webkit-scrollbar {
   width: 1em;
@@ -113,7 +101,7 @@ body {
 ::-webkit-scrollbar-track:horizontal {
   background-color: #76876b;
   margin-block: 0.5em;
-  margin-inline: 150px;
+  margin-inline: 340px;
   transition: 0.2s;
 }
 
