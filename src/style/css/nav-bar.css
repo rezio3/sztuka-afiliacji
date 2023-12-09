@@ -48,12 +48,16 @@
   }
   .nav-bar-box .nav-bar-container__buttons {
     margin-left: 0;
-    width: 100%;
     margin-right: 0;
     display: flex;
     justify-content: center;
   }
   .nav-bar-box .nav-bar-container__buttons a .nav-bar-button {
     font-size: 14px;
+  }
+  .nav-bar-box .nav-bar-container .logo-img-nav-bar {
+    width: 50px;
+    margin: 0;
+    margin-right: 10px;
   }
 }
