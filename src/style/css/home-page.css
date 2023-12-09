@@ -114,10 +114,6 @@
 .video-container p:first-child {
   margin-top: 55px;
 }
-.video-container__youtube-video-box iframe {
-  width: 560px;
-  height: 315px;
-}
 .video-container__description {
   width: 40%;
   height: 100%;
