@@ -85,7 +85,7 @@
   height: 100%;
 }
 .about-project-container .about-project-container__right-box img {
-  height: 100%;
+  height: 440px;
   margin-right: 20px;
 }
 
@@ -114,8 +114,9 @@
 .video-container p:first-child {
   margin-top: 55px;
 }
-.video-container__youtube-video-container {
-  margin-top: 50px;
+.video-container__youtube-video-box iframe {
+  width: 560px;
+  height: 315px;
 }
 .video-container__description {
   width: 40%;
@@ -130,4 +131,72 @@
   width: 110px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+@media (max-width: 992px) {
+  .about-project-container {
+    height: 700px;
+    padding: 0;
+    width: 90vw;
+    min-width: 90vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .about-project-container .about-project-container__box {
+    width: 80%;
+    margin-right: 0;
+    align-items: center;
+  }
+  .about-project-container .about-project-container__box .header-container {
+    width: 80%;
+  }
+  .about-project-container .about-project-container__box .header-container .arrow-right {
+    width: 100px;
+  }
+  .about-project-container .about-project-container__box .header-container .header-container__title {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }
+  .about-project-container .about-project-container__box p {
+    width: 80%;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .about-project-container .about-project-container__right-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .about-project-container .about-project-container__right-box img {
+    margin-right: 0;
+    margin: 5px;
+    height: 210px;
+  }
+  .video-container {
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    width: 90vw;
+    min-width: 90vw;
+    flex-direction: column;
+    height: 700px;
+  }
+  .video-container .video-container__youtube-video-box {
+    margin-top: 20px;
+  }
+  .video-container .video-container__youtube-video-box iframe {
+    width: 100%;
+    height: 250px;
+  }
+  .video-container .video-container__description {
+    width: 90%;
+  }
+  .video-container .video-container__description p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+  }
 }

@@ -32,3 +32,25 @@
 .footer-icons-box a {
   text-decoration: none;
 }
+
+@media (max-width: 992px) {
+  .footer-icons-box {
+    width: 90vw;
+    min-width: 100vw;
+  }
+  .footer-icons-box .copyright-container {
+    width: 100%;
+    min-width: 100%;
+  }
+  .footer-icons-box .copyright-container .copyright-span {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .footer-icons-box .copyright-container .footer-icons-container {
+    margin-right: 20px;
+  }
+  .footer-icons-box .copyright-container .footer-icons-container .icon {
+    font-size: 20px;
+    margin: 0;
+  }
+}

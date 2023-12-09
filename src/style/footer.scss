@@ -38,3 +38,25 @@
 		text-decoration: none;
 	}
 }
+
+@media (max-width: 992px) {
+	.footer-icons-box {
+		width: 90vw;
+		min-width: 100vw;
+		.copyright-container {
+			width: 100%;
+			min-width: 100%;
+			.copyright-span {
+				font-size: 12px;
+				margin-left: 10px;
+			}
+			.footer-icons-container {
+				margin-right: 20px;
+				.icon {
+					font-size: 20px;
+					margin: 0;
+				}
+			}
+		}
+	}
+}
