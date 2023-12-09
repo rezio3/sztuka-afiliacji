@@ -39,14 +39,90 @@ body {
 
 .second-section-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 1200px;
 }
-.second-section-container .section-section-left-container {
+.second-section-container .second-section-left-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.second-section-container .section-section-left-container .second-section-title {
+.second-section-container .second-section-left-container .second-section-title {
   font-size: 60px;
+  font-weight: 400;
+}
+.second-section-container .second-section-left-container .second-section-list li {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.second-section-container .second-section-right-container-img {
+  width: 450px;
+  height: 380px;
+  border-radius: 100%;
+  margin-right: 100px;
+}
+
+.third-section-container {
+  margin-top: 100px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.third-section-container .phone-bg {
+  background-image: url(../../img/phone-bg.png);
+  background-size: cover;
+  width: 320px;
+  height: 630px;
+}
+.third-section-container .computer-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 560px;
+  margin-right: 0;
+  background-image: url(../../img/computer-bg.png);
+  background-size: cover;
+}
+.third-section-container .computer-bg .computer-video {
+  width: 690px;
+  height: 410px;
+  margin-bottom: 140px;
+}
+
+.third-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.third-section .third-section-title {
+  margin-top: 100px;
+  font-size: 70px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+}
+.third-section .etap-3 {
+  font-size: 55px;
+  letter-spacing: 3px;
+  color: #76876b;
+}
+.third-section .third-section-video {
+  margin-top: 50px;
+  width: 500px;
+  height: 600px;
+}
+.third-section p {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 26px;
+}
+
+.last-img {
+  margin: 100px 0;
 }
