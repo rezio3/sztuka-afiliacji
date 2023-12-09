@@ -125,3 +125,104 @@
 .lower-section-container .social-image {
   width: 200px;
 }
+
+@media (max-width: 992px) {
+  .section-container {
+    flex-direction: column;
+    margin-top: 150px;
+    width: 90vw;
+    min-width: 90vw;
+    height: 400px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 0 0px 20px -10px black;
+  }
+  .section-container__header {
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .section-container__register-button {
+    width: 200px;
+    height: 80px;
+    padding: 10px 20px;
+    margin: 15px 0;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-family: "Marcellus", serif;
+    letter-spacing: 3px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    background-color: #9cad90;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+  }
+  .section-container .insta-link-span {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 14px;
+    width: 100px;
+  }
+  .middle-section-container {
+    width: 80vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .middle-section-container h5 {
+    margin-bottom: 0;
+    color: rgb(163, 175, 158);
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .middle-section-container ul {
+    transform: translateX(-40px);
+    margin-left: 30px;
+    padding: 0;
+  }
+  .middle-section-container ul li {
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .middle-section-container .middle-section-container__text {
+    font-size: 14px;
+    letter-spacing: 2px;
+    width: 100%;
+  }
+  .middle-section-container__image {
+    margin-top: 50px;
+    width: 250px;
+  }
+  .lower-section-container {
+    margin-bottom: 60px;
+    padding: 0;
+    height: 450px;
+    justify-content: flex-start;
+  }
+  .lower-section-container h2 {
+    margin-top: 30px;
+    color: #615e5b;
+    font-size: 34px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  .lower-section-container__content-container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .lower-section-container ul {
+    width: 250px;
+  }
+  .lower-section-container ul li {
+    font-size: 14px;
+    margin: 20px 0;
+    letter-spacing: 2px;
+  }
+  .lower-section-container .social-image {
+    width: 100px;
+  }
+}
