@@ -113,3 +113,70 @@ body {
 ::-webkit-scrollbar-thumb:hover:horizontal {
   background-color: rgb(177, 189, 173);
 }
+
+@media (max-width: 992px) {
+  .opinions-section-container {
+    height: 600px;
+  }
+  .opinions-section-container .opinions-header-left-box {
+    height: 100%;
+  }
+  .opinions-section-container .opinions-header-left-box .header-container__title {
+    margin-left: 0;
+    font-size: 40px;
+  }
+  .opinions-section-container .opinions-header-left-box p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 25px;
+  }
+  .opinions-section-container .opinions-header-right-box {
+    display: flex;
+    justify-content: center;
+  }
+  .opinions-section-container .opinions-header-right-box .reviews-img {
+    width: 80%;
+    margin-right: 0px;
+    margin-bottom: 100px;
+  }
+  .opinions-section-container .insta-link-span {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    font-size: 12px;
+  }
+  .arrow-buttons-container .arrow {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    user-select: none;
+    color: #76876b;
+    border: 1px solid rgba(163, 175, 158, 0);
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  .arrow-buttons-container .arrow:hover {
+    border: 1px solid rgb(163, 175, 158);
+    font-size: 30px;
+    user-select: none;
+    color: rgb(163, 175, 158);
+  }
+  .lower-opinions-container {
+    margin: 0;
+    margin-bottom: 100px;
+    padding: 10px 0 50px;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    overflow: auto;
+    scroll-behavior: smooth;
+    align-items: center;
+  }
+  .lower-opinions-container .spacer {
+    width: 25px;
+  }
+  .lower-opinions-container .opinions-img {
+    margin: 20px 0;
+    width: 300px;
+  }
+}
