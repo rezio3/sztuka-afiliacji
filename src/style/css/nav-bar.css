@@ -25,6 +25,7 @@
   border: 1px solid rgba(0, 0, 0, 0);
   transition: 0.2s ease-out;
   cursor: pointer;
+  color: black !important;
 }
 .nav-bar-box .nav-bar-container__buttons a .nav-bar-button:hover {
   border: 1px solid black;
