@@ -6,6 +6,52 @@ body {
 }
 
 .contact-section-container {
-	height: 500px;
-	margin-top: 100px;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: fit-content;
+	margin-top: 150px;
+	padding-bottom: 80px;
+	.contact-header {
+		font-size: 42px;
+		letter-spacing: 3px;
+		font-weight: 400;
+	}
+	.socials-container {
+		display: flex;
+		width: 70%;
+		justify-content: space-between;
+
+		.social-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+
+			h3 {
+				letter-spacing: 3px;
+				font-weight: 400;
+				font-size: 28px;
+			}
+
+			.social-img {
+				width: 240px;
+				border-radius: 50%;
+				transition: 0.2s ease-out;
+				cursor: pointer;
+			}
+			.social-img:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.contact-section-container {
+		.socials-container {
+			flex-direction: column-reverse;
+		}
+	}
 }
