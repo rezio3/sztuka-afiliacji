@@ -34,3 +34,15 @@ targetsArr.map((e) => {
 		opacity: 0,
 	});
 });
+
+const dolar = document.querySelector(".dolar-img");
+
+gsap.from(dolar, {
+	scrollTrigger: {
+		trigger: dolar,
+		start: "top bottom",
+		end: "top 300px",
+		scrub: 1,
+	},
+	rotation: "120",
+});
