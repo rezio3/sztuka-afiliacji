@@ -1,33 +1,115 @@
 .third-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.third-section .first-container {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
-.third-section .third-section-title {
+.third-section .first-container .third-section-title {
   margin-top: 100px;
   font-size: 70px;
   font-weight: 200;
   letter-spacing: 3px;
   margin-bottom: 0;
 }
-.third-section .etap-3 {
+.third-section .first-container .etap-3 {
   font-size: 55px;
   letter-spacing: 3px;
   color: #76876b;
 }
-.third-section .third-section-video {
+.third-section .first-container .third-section-video {
   margin-top: 50px;
   width: 500px;
   height: 600px;
 }
-.third-section p {
+.third-section .second-container {
+  position: relative;
+  padding: 0 10px;
+  margin-top: 100px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.third-section .second-container h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 0.084em;
+}
+.third-section .second-container p {
+  min-width: 400px;
+  line-height: 36px;
+  width: 60%;
+  text-align: start;
+  font-size: 32px;
+  letter-spacing: 0.084em;
+}
+.third-section .second-container .dolar-img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.third-section .third-container {
+  padding: 0 10px;
+  margin-top: 100px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.third-section .third-container h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 0.084em;
+}
+.third-section .third-container .terminology-description {
+  margin-bottom: 100px;
+  min-width: 400px;
+  line-height: 36px;
+  width: 60%;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0.044em;
+}
+.third-section .m2m-paragraph {
   margin-top: 100px;
   margin-bottom: 0px;
   text-align: center;
   letter-spacing: 2px;
   font-size: 26px;
+}
+.third-section .terminology-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.third-section .terminology-container .terminology-box {
+  margin: 0 3%;
+  margin-top: 50px;
+  max-width: 320px;
+  width: 320px;
+}
+.third-section .terminology-container .terminology-box h3 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 22px;
+}
+.third-section .terminology-container .terminology-box .terminology-paragraph {
+  display: block;
+  line-height: 24px;
+  font-size: 17px;
+  text-align: center;
 }
 
 .last-img {
