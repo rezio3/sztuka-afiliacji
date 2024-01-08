@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .third-section {
   display: flex;
   flex-direction: column;
@@ -61,7 +65,7 @@
 }
 .third-section .fourth-container {
   position: relative;
-  padding: 0 10px;
+  padding: 0 20px;
   margin-top: 150px;
   max-width: 1200px;
   display: flex;
@@ -119,7 +123,7 @@
 
 .krok-img {
   position: absolute;
-  right: 0;
+  right: 10px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -132,7 +136,14 @@
   .third-section {
     width: 90vw;
   }
+  .third-section .second-container {
+    align-items: center;
+  }
+  .third-section .fourth-container {
+    align-items: center;
+  }
   .third-section .third-section-title {
+    text-align: center;
     margin-top: 100px;
     font-size: 32px;
     font-weight: 200;
@@ -150,9 +161,17 @@
   }
   .third-section p {
     margin-bottom: 0px;
-    text-align: center;
     letter-spacing: 2px;
     font-size: 26px;
+  }
+  .terminology-container .terminology-box {
+    width: 95%;
+    min-width: 95%;
+  }
+  .krok-img {
+    position: static;
+    transform: translateY(0%);
+    margin-top: 60px;
   }
   .last-img {
     margin: 100px 0;

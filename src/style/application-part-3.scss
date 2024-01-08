@@ -1,5 +1,9 @@
 @import "./colors.scss";
 
+body {
+	overflow-x: hidden;
+}
+
 .third-section {
 	display: flex;
 	flex-direction: column;
@@ -63,9 +67,8 @@
 	}
 	.fourth-container {
 		position: relative;
-		padding: 0 10px;
+		padding: 0 20px;
 		margin-top: 150px;
-
 		max-width: 1200px;
 		display: flex;
 		flex-direction: column;
@@ -124,7 +127,7 @@
 }
 .krok-img {
 	position: absolute;
-	right: 0;
+	right: 10px;
 	top: 50%;
 	transform: translateY(-50%);
 }
@@ -136,7 +139,15 @@
 @media (max-width: 992px) {
 	.third-section {
 		width: 90vw;
+
+		.second-container {
+			align-items: center;
+		}
+		.fourth-container {
+			align-items: center;
+		}
 		.third-section-title {
+			text-align: center;
 			margin-top: 100px;
 			font-size: 32px;
 			font-weight: 200;
@@ -154,10 +165,21 @@
 		}
 		p {
 			margin-bottom: 0px;
-			text-align: center;
+			// text-align: center;
 			letter-spacing: 2px;
 			font-size: 26px;
 		}
+	}
+	.terminology-container {
+		.terminology-box {
+			width: 95%;
+			min-width: 95%;
+		}
+	}
+	.krok-img {
+		position: static;
+		transform: translateY(0%);
+		margin-top: 60px;
 	}
 	.last-img {
 		margin: 100px 0;
