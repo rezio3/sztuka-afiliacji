@@ -37,26 +37,6 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		h2 {
-			margin: 0;
-			font-weight: 400;
-			font-size: 50px;
-			letter-spacing: 0.084em;
-		}
-		p {
-			min-width: 400px;
-			line-height: 36px;
-			width: 60%;
-			text-align: start;
-			font-size: 32px;
-			letter-spacing: 0.084em;
-		}
-		.dolar-img {
-			position: absolute;
-			right: 0;
-			top: 50%;
-			transform: translateY(-50%);
-		}
 	}
 	.third-container {
 		padding: 0 10px;
@@ -65,8 +45,8 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		h2 {
-			margin: 0;
+		.terminologia-header {
+			margin-top: 100px;
 			font-weight: 400;
 			font-size: 50px;
 			letter-spacing: 0.084em;
@@ -81,8 +61,20 @@
 			letter-spacing: 0.044em;
 		}
 	}
+	.fourth-container {
+		position: relative;
+		padding: 0 10px;
+		margin-top: 150px;
+
+		max-width: 1200px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		.fourth-text-container {
+		}
+	}
 	.m2m-paragraph {
-		margin-top: 100px;
+		margin-top: 150px;
 		margin-bottom: 0px;
 		text-align: center;
 		letter-spacing: 2px;
@@ -114,6 +106,27 @@
 			}
 		}
 	}
+}
+
+.krok-header {
+	margin: 0;
+	font-weight: 400;
+	font-size: 50px;
+	letter-spacing: 0.084em;
+}
+.krok-description {
+	min-width: 400px;
+	line-height: 36px;
+	width: 60%;
+	text-align: start;
+	font-size: 32px;
+	letter-spacing: 0.084em;
+}
+.krok-img {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .last-img {
