@@ -35,7 +35,7 @@ targetsArr.map((e) => {
 	});
 });
 
-const dolar = document.querySelector(".dolar-img");
+const dolar = document.querySelector(".krok-img");
 
 gsap.from(dolar, {
 	scrollTrigger: {
@@ -45,4 +45,28 @@ gsap.from(dolar, {
 		scrub: 1,
 	},
 	rotation: "120",
+});
+
+const fourthSection = document.querySelector(".fourth-text-container");
+const personsImg = document.querySelector("#persons-img");
+
+gsap.from(fourthSection, {
+	scrollTrigger: {
+		trigger: fourthSection,
+		start: "top bottom",
+		end: "top 300px",
+		scrub: 1,
+	},
+	x: "-200px",
+	opacity: 0,
+});
+gsap.from(personsImg, {
+	scrollTrigger: {
+		trigger: personsImg,
+		start: "top bottom",
+		end: "top 300px",
+		scrub: 1,
+	},
+	x: "200px",
+	opacity: 0,
 });
