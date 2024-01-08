@@ -29,7 +29,6 @@ targetsArr.map((e) => {
 			start: "top 80%",
 			end: "top 300px",
 			scrub: 1,
-			markers: true,
 		},
 		x: "200px",
 		opacity: 0,
