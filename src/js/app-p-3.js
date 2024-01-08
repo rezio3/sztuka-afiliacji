@@ -41,7 +41,7 @@ gsap.from(dolar, {
 	scrollTrigger: {
 		trigger: dolar,
 		start: "top bottom",
-		end: "top 300px",
+		end: "top 100px",
 		scrub: 1,
 	},
 	rotation: "120",
